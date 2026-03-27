@@ -226,24 +226,3 @@ footer {
     padding: 0;
     height: 100%;
 }
-
-/* HTML + body chiếm full viewport */
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
-
-/* Hero section full màn hình */
-.hero {
-    height: 100vh; /* 100% chiều cao viewport */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-}
-}
