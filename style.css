@@ -29,3 +29,35 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+/* ===== DROPDOWN MENU (THÊM MỚI) ===== */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(0,0,0,0.95);
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #00fff7;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background: #111;
+    color: #ff00ff;
+}
+
+/* QUAN TRỌNG NHẤT */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
